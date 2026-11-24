@@ -1,0 +1,12 @@
+<!-- To: renz gabun &lt;renz.gabun10@gmail.com&gt; | Subject: Verify your email address -->
+<!doctype html><html><body style="margin:0;background:#f3f5f8;font-family:Arial,Helvetica,sans-serif;color:#1b2433"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:24px"><table role="presentation" width="560" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #dde1e7"><tr><td style="background:#8f1d21;color:#ffffff;padding:16px 24px;font-size:16px;font-weight:bold">Barangay E-Services</td></tr><tr><td style="padding:24px;font-size:15px;line-height:1.55"><p>Good day, renz.</p><p>Please confirm your email address to activate your Barangay E-Services account.</p><p style="margin:24px 0"><a href="http://localhost/barangay-eservices/auth/verify.php?token=e57035f0ef37a9d03a291e70ad09d5f7f70cf25033a59c57291143e0ba11c05b" style="background:#8f1d21;color:#ffffff;padding:12px 20px;text-decoration:none;display:inline-block">Verify my email</a></p><p>Or open this link: <br><a href="http://localhost/barangay-eservices/auth/verify.php?token=e57035f0ef37a9d03a291e70ad09d5f7f70cf25033a59c57291143e0ba11c05b">http://localhost/barangay-eservices/auth/verify.php?token=e57035f0ef37a9d03a291e70ad09d5f7f70cf25033a59c57291143e0ba11c05b</a></p><p>This link expires in 60 minutes and can be used only once. If you did not create this account, you can ignore this email.</p></td></tr><tr><td style="padding:16px 24px;border-top:1px solid #dde1e7;font-size:12px;color:#5b6575">This is an automated message from Barangay E-Services. Please do not reply.</td></tr></table></td></tr></table></body></html><?php
+'mail' => [
+    'transport'  => 'log',
+    'host'       => 'smtp.gmail.com',
+    'port'       => 587,
+    'encryption' => 'tls',
+    'username'   => 'your.address@gmail.com',
+    'password'   => 'your-16-character-app-password',
+    'from_email' => 'your.address@gmail.com',
+    'from_name'  => '',
+],
